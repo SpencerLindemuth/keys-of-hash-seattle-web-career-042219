@@ -4,6 +4,7 @@ class Hash
     # code goes here
     x = collect do |key, value|
       arguments.include?(value)
+      binding.pry
     end
   end
 end
